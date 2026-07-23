@@ -46,7 +46,7 @@ defmodule Exkismet.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 1.8"},
+      {:httpoison, "~> 2.1"},
       {:ex_doc, "~> 0.29", only: :dev},
       {:credo, "~> 1.6", only: [:dev, :test], runtime: false},
       {:doctor, "~> 0.21.0", only: :dev},
